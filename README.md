@@ -1,2 +1,5 @@
 # gunmod
 銃激戦mod
+
+datapacksフォルダ配下にデータパックを入れる
+backupdataフォルダ配下にバックアップデータを入れる

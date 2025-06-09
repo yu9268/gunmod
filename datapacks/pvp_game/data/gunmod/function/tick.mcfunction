@@ -1,0 +1,1 @@
+execute if score #flag flag matches 1 run function gunmod:main
