@@ -8,7 +8,7 @@ scoreboard players operation #tmpflag tmpflag = #flag flag
 
 # ３）origFlag が 0 → flag を 1 にする
 execute if score #tmpflag tmpflag matches 0 run scoreboard players set #flag flag 1
-execute if score #flag flag matches 1 run say flag が 1 になりました
+title @a title {"text":"試合開始","color":"blue","bold":true}
 
 # ４）origFlag が 1 → flag を 0 にする
 execute if score #tmpflag tmpflag matches 1 run scoreboard players set #flag flag 0

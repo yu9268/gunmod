@@ -1,2 +1,2 @@
-scoreboard players add Aチーム人数 team_count 1
-tag @p add teamA
+# 2025.06.15 チームの変更
+team join TeamA @p
