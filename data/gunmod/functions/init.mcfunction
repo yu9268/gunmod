@@ -14,7 +14,9 @@ scoreboard objectives setdisplay sidebar team_count
 # 2025.06.15 チームの変更
 team add TeamA
 team modify TeamA color red
+tag @a remove teamA
 team add TeamB
 team modify TeamB color blue
+tag @a remove teamB
 
 scoreboard objectives setdisplay sidebar life
