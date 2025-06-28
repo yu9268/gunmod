@@ -10,6 +10,8 @@ scoreboard objectives add tmpmode dummy
 scoreboard objectives add killcount dummy
 scoreboard objectives add lives dummy "残ライフ"
 scoreboard objectives add alive dummy
+scoreboard objectives add team_kills dummy
+scoreboard objectives add max_kills dummy
 
 scoreboard players set #aliveA alive 0
 scoreboard players set #aliveB alive 0
@@ -19,6 +21,9 @@ scoreboard players set Aチーム人数 team_count 0
 scoreboard players set Bチーム人数 team_count 0
 scoreboard objectives setdisplay sidebar team_count
 scoreboard players set @a lives 3
+scoreboard players set #TeamA team_kills 0
+scoreboard players set #TeamB team_kills 0
+scoreboard players set #limit max_kills 20
 
 # 2025.06.28 チームのリセット
 team leave @a
@@ -32,3 +37,4 @@ team modify TeamB color blue
 
 scoreboard objectives setdisplay sidebar life
 gamemode creative @a
+gamerule doImmediateRespawn true
